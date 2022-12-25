@@ -15,4 +15,4 @@ def main(s):
             juftson+=1
         sikl+=1
     return juftson
-    return
+print(main("23456789as"))
