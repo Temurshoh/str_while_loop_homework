@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
+    sikl=0
+    juftson=0
+    
+    while len(s)>sikl:
+        if int(s[sikl])%2!=0:
+
+            juftson+=1
+        sikl+=1
+    return juftson
     return
