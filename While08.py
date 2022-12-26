@@ -11,8 +11,7 @@ def main(s):
     
     while len(s)>sikl:
         if int(s[sikl])%2!=0:
-
             juftson+=1
         sikl+=1
     return juftson
-print(main("23456789as"))
+print(main("23456789"))
