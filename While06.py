@@ -11,7 +11,7 @@ def main(s):
     undoshlar=0
     undosh="aeiou"
     while len(s)>sikl:
-        if undosh.find(s[sikl])!=-1:
+        if undosh.find(s[sikl])==-1:
             undoshlar+=1
         sikl+=1
     return undoshlar
